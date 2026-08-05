@@ -1,0 +1,62 @@
+.kategori-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.kategori-list__item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: var(--color-paper);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-md);
+  padding: 22px 24px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.kategori-list__item:hover {
+  transform: translateX(6px);
+  box-shadow: var(--shadow-card);
+  border-color: var(--color-gold);
+}
+
+.kategori-list__index {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  color: var(--color-line);
+  flex-shrink: 0;
+  width: 40px;
+}
+
+.kategori-list__icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 12px;
+  background: var(--color-bg-alt);
+  color: var(--color-terracotta);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.kategori-list__text {
+  flex: 1;
+  min-width: 0;
+}
+
+.kategori-list__text h2 {
+  font-size: 1.15rem;
+}
+
+.kategori-list__text p {
+  margin-top: 4px;
+  font-size: 0.87rem;
+}
+
+.kategori-list__arrow {
+  font-size: 1.2rem;
+  color: var(--color-terracotta);
+  flex-shrink: 0;
+}

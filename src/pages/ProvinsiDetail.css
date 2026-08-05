@@ -1,0 +1,134 @@
+.provinsi-detail__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-bottom: 22px;
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.8rem;
+  color: var(--color-ink-soft);
+}
+
+.breadcrumb a {
+  color: var(--color-ink-soft);
+  transition: color 0.18s ease;
+}
+
+.breadcrumb a:hover {
+  color: var(--color-terracotta);
+}
+
+.provinsi-hero {
+  padding: 8px 0 24px;
+  border-bottom: 3px solid var(--accent, var(--color-gold));
+  margin-bottom: 20px;
+}
+
+.provinsi-hero h1 {
+  margin-top: 10px;
+  font-size: 2.3rem;
+}
+
+.provinsi-hero p {
+  margin-top: 10px;
+  max-width: 620px;
+}
+
+.budaya-grid {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.budaya-card {
+  background: var(--color-paper);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-md);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.budaya-card:hover {
+  box-shadow: var(--shadow-card);
+  transform: translateY(-3px);
+}
+
+.budaya-card__head {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.budaya-card__icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  background: var(--color-bg-alt);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.budaya-card__head h2 {
+  font-size: 1.2rem;
+  margin-top: 3px;
+}
+
+.budaya-card__desc {
+  font-size: 0.9rem;
+}
+
+.budaya-card__link {
+  margin-top: auto;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-terracotta);
+}
+
+.provinsi-nav {
+  margin-top: 44px;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  border-top: 1px solid var(--color-line);
+  padding-top: 24px;
+}
+
+.provinsi-nav__item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 14px 18px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-line);
+  transition: border-color 0.2s ease, transform 0.2s ease;
+  min-width: 180px;
+}
+
+.provinsi-nav__item--right {
+  text-align: right;
+  align-items: flex-end;
+}
+
+.provinsi-nav__item:hover {
+  border-color: var(--color-gold);
+  transform: translateY(-2px);
+}
+
+.provinsi-nav__item strong {
+  font-family: var(--font-display);
+  color: var(--color-indigo);
+  font-size: 1.05rem;
+}

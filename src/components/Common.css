@@ -1,0 +1,66 @@
+.back-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--color-paper);
+  border: 1px solid var(--color-line);
+  color: var(--color-indigo);
+  font-weight: 600;
+  font-size: 0.85rem;
+  padding: 9px 16px 9px 12px;
+  border-radius: 999px;
+  transition: background 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.back-button:hover {
+  background: var(--color-indigo);
+  color: #fbf3e2;
+  transform: translateX(-3px);
+  box-shadow: var(--shadow-card);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 22px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  border: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.btn--primary {
+  background: linear-gradient(135deg, var(--color-gold) 0%, var(--color-terracotta) 100%);
+  color: #251505;
+}
+
+.btn--primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px -8px rgba(166, 71, 47, 0.55);
+}
+
+.btn--ghost {
+  background: transparent;
+  color: var(--color-indigo);
+  border: 1.5px solid var(--color-indigo);
+}
+
+.btn--ghost:hover {
+  background: var(--color-indigo);
+  color: #fbf3e2;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 13px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  background: var(--color-bg-alt);
+  color: var(--color-indigo);
+}
