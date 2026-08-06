@@ -12,7 +12,10 @@ const FIELD_MAP = {
   'rumah-adat': 'rumahAdat',
   'seni-lukis': 'senilukis',
   'alat-musik': 'alatMusik',
-  'makanan-tradisional': 'makananTradicional'
+  'makanan-tradisional': 'makananTradicional',
+  'lagu-daerah': 'laguDaerah',
+  'sejarah-daerah': 'sejarahDaerah',
+  
 }
 
 export default function KategoriDetail() {

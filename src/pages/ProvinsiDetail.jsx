@@ -13,7 +13,9 @@ const KATEGORI_MAP = [
   { key: 'rumahAdat', ikon: 'rumah', label: 'Rumah Adat', slug: 'rumah-adat' },
   { key: 'senilukis', ikon: 'lukisan', label: 'Seni Lukis & Motif', slug: 'seni-lukis' },
   { key: 'alatMusik', ikon: 'musik', label: 'Alat Musik Tradisional', slug: 'alat-musik' },
-  { key: 'makananTradicional', ikon: 'makanan', label: 'Makanan Tradisional', slug: 'makanan-tradisional' }
+  { key: 'makananTradicional', ikon: 'makanan', label: 'Makanan Tradisional', slug: 'makanan-tradisional' },
+  { key: 'laguDaerah', ikon: 'lagu', label: 'Lagu Daerah', slug: 'lagu-daerah' },
+  
 ]
 
 export default function ProvinsiDetail() {
